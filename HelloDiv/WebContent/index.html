@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<title></title>
+</head>
+<body>
+
+<div id="texto">
+	
+</div>
+
+<button>Start Animation</button>
+	<div style="background:#98bf21;height:100px;width:100px;position:absolute;"></div>
+
+<script>
+	console.log('js');
+	var a = document.getElementById('texto');
+	a.innerHTML = "<h1>JQuery  Glassfish 5</h1>"; 
+	
+	
+	$("button").click(function(){
+		  $("div").animate({left: '250px'});
+		})
+	
+</script>
+
+</body>
+</html>
